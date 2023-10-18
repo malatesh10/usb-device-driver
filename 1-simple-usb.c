@@ -1,4 +1,12 @@
-/* A simpleu usb device driver*/
+/* A simple usb device driver to understand usb device driver structure 
+ * Before insert this module, request to remove mas storage driver with command like
+ * $sudo rmmod uas usb_storage;
+ * Only by removing usb_storage, probe function will be called 
+ * Incase of any doubt send out email to malatesh10@gmail.com
+ * Incase you feel this device driver is useful please click on star in github and 
+ * you can share comments in linkedin https://www.linkedin.com/in/malatesh-ankasapur-48a08837/
+ */
+
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/usb.h>
