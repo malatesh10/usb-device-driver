@@ -8,6 +8,6 @@ Info I: Incase of any  error like "License Module can not be loaded" while loadi
       $echo 1 > /proc/sys/kernel/sysrq
       $echo x > /proc/sysrq-trigger
       
-InfoII: Before insert this module, request to remove mas storage driver with command like
+Info II: Before insert this module, request to remove mas storage driver with command like
       $sudo rmmod uas usb_storage;
       Only by removing usb_storage, probe function will be called
